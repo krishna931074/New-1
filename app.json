@@ -1,0 +1,49 @@
+{
+    "name": "Luminant",
+    "description": "Bot For Telegram",
+    "logo": "https://graph.org/file/818aa312b35052a5c4d74.jpg",
+    "keywords": [
+        "text-video",
+        "video-extract",
+        "pyrogram"
+    ],
+    "repository": "https://github.com/lakshaybajarang/Lakshay-Paid",
+    "success_url": "https://t.me/LuminantBots",
+    "stack": "container",
+    "env": {
+        "API_ID": {
+            "description": "Enter Your Api Id",
+            "value": "28328736",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Enter Your Api Hash",
+            "value": "802254a44896baa87f3083b7af36b2e5",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "Enter Your Telegram Bot Token",
+            "value": "7178616368:AAH2i_xOGJO9bNwpG_yLjkljxpbVFUWUZHg",
+            "required": true
+        },
+        "BOT_NAME": {
+            "description": "Enter Your Telegram Bot Name",
+            "value": "Hardikpanddyabot",
+            "required": true
+        },
+        "MONGO_URI": {
+            "description": "Enter your MongoDB connection string",
+            "value": "",
+            "required": true
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        }
+    ]
+}
